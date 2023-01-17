@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icon-por.png" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+    <title>Portfolio - Abel Fleitas</title>
+</head>
+<body>
+    <header id="inicio">
+        <div class="container">
+            <div class="brand">
+                <h2>A<span>F</span></h2>
+            </div>
+            <nav class="" id="nav">
+                <ul class="menu">
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#about-me" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#proyects" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <div class="container-fondo">
+            <img src="../images/f.jpeg" alt="">
+        </div>
+        <div class="profile">
+            <div class="square"></div>
+            <div class="circle-trans"></div>
+            <div class="circle"></div>
+            <div class="profile-img"><img src="../images/profile.jpeg" alt=""></div>
+            <div class="square-text">ABEL LEONARDO FLEITAS</div>
+            <div class="square-text-2">
+                <span>Full-Stack Web Developer | Tec. en Programación</span>
+            </div>
+            <div class="contact-icon">
+                <a href="https://github.com/abfleitas" target="_blank"><img src="../images/github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/abel-fleitas/" target="_blank"><img src="../images/linkedin.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <section class="about-container" id="about-me">
+        <h2><span>About me |</span> Sobre Mí</h2>
+        <div class="about-flex">
+            <div class="about-info">
+                <p>Mi nombre es Abel, soy una persona proactiva y de buen desempeño con formación académica como Técnico en Programación, y profesionalmente como Full-Stack Web Developer orientado a lenguajes tales como JavaScript, React.js, Redux.js, Node.js, Express.js y Sequelize con PostgreSQL. Me gusta trabajar en equipo y ser parte de todos los procesos, tengo una buena escucha activa y facilidad de aprendizaje activa y buena comunicación.</p>
+                <p><br>Mi objetivo personal es seguir desempeñándome en el ámbito del desarrollo web, así mismo, mi objetivo laboral es posicionarme en un puesto referido como Back-End Developer, y seguir aumentando mi experiencia en el mismo.</p>
+            </div>
+            <div class="social">
+                <div>
+                    <a href="https://github.com/abfleitas"><img src="../images/github.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/in/abel-fleitas/"><img src="../images/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="cv">
+            <a href="https://drive.google.com/file/d/1uQHZZXLEgVtKb_HKZIO_06WD7NCeY6P0/view" target="_blank">
+                <button>
+                    Descargar CV  <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="briefcase" id="proyects">
+        <div class="briefcase-section">
+            <h2><span>Projects |</span> Proyectos</h2>
+            <div class="briefcase-grid">
+                <div class="cont-proyect">
+                    <div class="proyect">
+                        <a href="https://drivein.vercel.app/" target="_blank" rel="noreferrer">
+                            <figure>
+                                <img src="../images/drive.png" alt="drivein" class="img-proyect">
+                                <div class="capa">
+                                    <h4>Ver Proyecto</h4>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="title">Drive In</div>
+                    <a href="https://github.com/abfleitas/DriveIn">
+                        <div class="icon-git">
+                            <i class="fa-brands fa-github"></i>
+                            Ver código
+                        </div>
+                    </a>
+                </div>
+                <div class="cont-proyect">
+                    <div class="proyect">
+                        <a href="https://pi-pokemon-7123fm9vo-abfleitas.vercel.app/" target="_blank" rel="noreferrer">
+                            <figure>
+                                <img src="../images/CapturaPI.PNG" alt="pokepage" class="img-proyect">
+                                <div class="capa">
+                                    <h4>Ver Proyecto</h4>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="title">Pokepage</div>
+                    <a href="https://github.com/abfleitas/PI---Pokemon">
+                        <div class="icon-git">
+                            <i class="fa-brands fa-github"></i>
+                            Ver código
+                        </div>
+                    </a>
+                </div>
+                <div class="cont-proyect">
+                    <div class="proyect">
+                        <a href="" target="_blank" rel="noreferrer">
+                            <figure>
+                                <img src="../images/portfolio.png" alt="portafolio" class="img-proyect">
+                                <div class="capa">
+                                    <h4>Ver Proyecto</h4>
+                                </div>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="title">Portafolio</div>
+                    <a href="">
+                        <div class="icon-git">
+                            <i class="fa-brands fa-github"></i>
+                            Ver código
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills-container">
+        <div class="skills-section">
+            <div class="skills-tec">
+                <h3><span>Technical Skills |</span> Habilidades Técnicas</h3>
+                <div class="tec">
+                    <div>
+                        <img src="../images/javascript.svg" alt="">
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div>
+                        <img src="../images/react.svg" alt="">
+                        <h4>React.js</h4>
+                    </div>
+                    <div>
+                        <img src="../images/redux.svg" alt="">
+                        <h4>Redux</h4>
+                    </div>
+                    <div>
+                        <img src="../images/git.svg" alt="">
+                        <h4>Git</h4>
+                    </div>
+                    <div>
+                        <img src="../images/nodejs.svg" alt="">
+                        <h4>Node.js</h4>
+                    </div>
+                    <div>
+                        <img src="../images/express-js.svg" alt="">
+                        <h4>Express.js</h4>
+                    </div>
+                    <div>
+                        <img src="../images/html.png" alt="">
+                        <h4>HTML</h4>
+                    </div>
+                    <div>
+                        <img src="../images/css-3.png" alt="">
+                        <h4>CSS</h4>
+                    </div>
+                    <div>
+                        <img src="../images/tailwind.svg" alt="">
+                        <h4>TailwindCSS</h4>
+                    </div>
+                    <div>
+                        <img src="../images/postgresql.svg" alt="">
+                        <h4>PostgreSQL</h4>
+                    </div>
+                    <div>
+                        <img src="../images/seq.svg" alt="">
+                        <h4>Sequelize</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-soft">
+                <h3><span>Soft Skills |</span> Habilidades Blandas</h3>
+                <div class="soft">
+                    <div>
+                        <span>Proactivo</span>
+                        <div class="barra-skill">
+                            <div class="progress proactive">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Escucha activa</span>
+                        <div class="barra-skill">
+                            <div class="progress esc-act">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progress leadership">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progress comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progress work">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container-contact">
+            <form class="form" action="https://formspree.io/f/mdovonzl" method="POST">
+                <h2><span>Contact Me |</span> Contáctame</h2>
+                <div class="form-container">
+                    <input type="text" class="form-input" name="name" placeholder="Nombre...">
+                    <input type="email" class="form-input" name="email" placeholder="Email...">
+                    <textarea class="message" name="message" placeholder="Mensaje..."></textarea>
+                    <button type="submit" class="btn-form">
+                        Enviar <i class="fa-regular fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
